@@ -31,6 +31,9 @@
 -->
 
   <user username="{{ admin_username }}" password="{{ admin_password }}" roles="manager-gui" />
+  <role rolename="manager-gui"/>
+  <role rolename="manager-script"/>
+  <user username="admin" password="password" roles="manager-gui,manager-script" />
 
 <!--
   <role rolename="tomcat"/>
@@ -39,5 +42,4 @@
   <user username="both" password="tomcat" roles="tomcat,role1"/>
   <user username="role1" password="tomcat" roles="role1"/>
 -->
-
 </tomcat-users>
