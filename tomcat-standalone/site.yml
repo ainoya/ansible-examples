@@ -5,5 +5,4 @@
   user: root
 
   roles:
-    - selinux
     - tomcat
